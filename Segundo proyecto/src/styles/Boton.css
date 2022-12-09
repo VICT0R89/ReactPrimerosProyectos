@@ -1,0 +1,135 @@
+button{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 30px;
+    color: #310c80;
+    background-color: #070332;
+    border: 2px solid #310c80;
+    border-radius: 15px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.botonClick{
+  margin-bottom: 25px;
+}
+
+.botonClick:hover{
+  background: #4311b0;
+  box-shadow: 0 0 10px #4311b0, 0 0 40px #4311b0, 0 0 80px #4311b0, 0 0 120px #4311b0;  
+  transition-delay: 0.8s;
+}
+.botonClick span{
+  position: absolute;
+  display: block;
+}
+#span1{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent,#4311b0);
+}
+.botonClick:hover #span1{
+  left: 100%;
+  transition: 0.8s;
+}
+#span3{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,#4311b0);
+}
+.botonClick:hover #span3{
+  right: 100%;
+  transition: 0.8s;
+  transition-delay: 0.4s;
+}
+#span2{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#4311b0);
+}
+.botonClick:hover #span2{
+  top: 100%;
+  transition: 0.8s;
+  transition-delay: 0.2s;
+}
+#span4{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#4311b0);
+}
+.botonClick:hover #span4{
+  bottom: 100%;
+  transition: 0.8s;
+  transition-delay: 0.6s;
+}
+
+/* REINICIAR --- */
+
+.botonReiniciar:hover{
+  background: #4311b0;
+  box-shadow: 0 0 10px #4311b0, 0 0 40px #4311b0, 0 0 80px #4311b0, 0 0 120px #4311b0;  ;
+  transition-delay: 0.8s;
+}
+.botonReiniciar span{
+  position: absolute;
+  display: block;
+}
+#span1{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent,#4311b0);
+}
+.botonReiniciar:hover #span1{
+  left: 100%;
+  transition: 0.8s;
+}
+#span3{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,#4311b0);
+}
+.botonReiniciar:hover #span3{
+  right: 100%;
+  transition: 0.8s;
+  transition-delay: 0.4s;
+}
+#span2{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#4311b0);
+}
+.botonReiniciar:hover #span2{
+  top: 100%;
+  transition: 0.8s;
+  transition-delay: 0.2s;
+}
+#span4{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#4311b0);
+}
+.botonReiniciar:hover #span4{
+  bottom: 100%;
+  transition: 0.8s;
+  transition-delay: 0.6s;
+}
